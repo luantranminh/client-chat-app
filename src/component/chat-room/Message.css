@@ -1,0 +1,58 @@
+.message {
+  margin: 15px 0;
+}
+
+.message div:nth-child(1) {
+  font-size: 11px;
+  color: var(--main-text-color);
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+.message div:nth-child(2) {
+  background: #5ea3d0;
+  color: var(--secondary-color);
+  display: inline;
+  padding: 4px 8px;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.message.party div:nth-child(2) {
+  margin-left: 11px;
+  color: black;
+  background: #f1f0f0;
+  line-height: 16px;
+}
+.message.party div:nth-child(1) {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+.message.party {
+  text-align: left;
+}
+
+.message.me {
+  font-family: inherit;
+  text-align: right;
+}
+.message.me div:nth-child(2) {
+  margin-right: 11px;
+  color: white;
+}
+
+.last.me.seen {
+  display: block;
+  margin-right: 15px;
+  margin-top: 1px;
+  color: #c2c5c7;
+  font-size: 12px;
+}
+
+.last.party {
+  display: none;
+}
+.last.me {
+  display: none;
+}

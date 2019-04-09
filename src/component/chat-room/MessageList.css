@@ -1,0 +1,12 @@
+.message-list {
+  height: 350px;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #575ed8;
+  text-align: left;
+}
