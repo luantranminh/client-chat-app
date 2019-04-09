@@ -1,5 +1,7 @@
 ### Client for chat application
 
+This chat application available at [HERE ](http://35.240.157.180:3000)
+
 #### Preview:
 
  <p align="center">
@@ -10,5 +12,3 @@
 <img src="https://user-images.githubusercontent.com/25551568/55799708-3b9e4f80-5afc-11e9-924d-f18a08e591cd.png" />
 </p>
 <p align="center">Login page</p>
-
-This chat application available at [HERE ](http://35.240.157.180:3000)
