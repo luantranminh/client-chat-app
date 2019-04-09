@@ -22,7 +22,6 @@ export default class SendMessageForm extends Component {
   }
 
   handleFocus(e) {
-    console.log("test");
     this.props.read();
   }
 

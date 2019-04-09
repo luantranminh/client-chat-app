@@ -14,8 +14,7 @@ export default class ChatRoom extends Component {
     super(props);
     this.state = {
       receiver: "",
-      messages: [],
-      socket: io("http://localhost:80")
+      messages: []
     };
 
     socket = io("http://localhost:80", { forceNew: true });
